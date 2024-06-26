@@ -1,0 +1,21 @@
+{
+  "name": "simple_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/index.ts",
+    "start:prod": "tsc -b && node dist/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
